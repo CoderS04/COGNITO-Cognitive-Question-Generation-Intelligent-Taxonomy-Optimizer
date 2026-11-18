@@ -1,10 +1,5 @@
 # COGNITO: Cognitive Question Generation & Intelligent Taxonomy Optimizer
 
-![COGNITO Logo / Badge](https://img.shields.io/badge/System-COGNITO_v1.0-blue.svg)
-![Bloom's Taxonomy Compliant](https://img.shields.io/badge/Bloom's_Taxonomy-L1_to_L6_Compliant-emerald.svg)
-![Institution](https://img.shields.io/badge/Institution-Vishwakarma_Institute_of_Technology-orange.svg)
-![Stack](https://img.shields.io/badge/Stack-FastAPI_+_React_+_ChromaDB-purple.svg)
-
 ---
 
 ## 1. Executive Summary
@@ -132,10 +127,3 @@ npm run dev
 This runs an automated end-to-end verification across all 9 modules: document parsing, cognitive classification, repetition detection, RAG retrieval, constraint paper generation, CAS validation, and PDF/DOCX generation.
 
 ---
-
-## 5. Academic Verification & Project Credits
-- **Project**: COGNITO (Cognitive Question Generation and Intelligent Taxonomy Optimizer)
-- **Institution**: Vishwakarma Institute of Technology (VIT), Pune
-- **Department**: Computer Science & Engineering
-- **Batch**: Batch 2 - Group 2 (Artificial Intelligence PBL)
-- **Contributors**: Neel Ballare, Samruddha Barhanpurkar, Aaditya Bhand, Kritika Bhartiya, Jyotiraditya Bhosale
