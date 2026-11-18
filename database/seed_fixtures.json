@@ -1,0 +1,140 @@
+{
+  "institution": "Vishwakarma Institute of Technology (VIT)",
+  "course": {
+    "code": "CS3001",
+    "title": "Artificial Intelligence",
+    "department": "Computer Science & Engineering",
+    "semester": "Semester VI",
+    "academic_year": "2025-2026",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Introduction to AI & Intelligent Agents",
+        "description": "Foundations of AI, agent architectures, PEAS specification, environment classifications.",
+        "topics": [
+          {
+            "name": "PEAS Model for Autonomous Agents",
+            "keywords": "peas, performance measure, environment, sensors, actuators",
+            "learning_outcome": "Formulate PEAS descriptions for diverse agent tasks."
+          },
+          {
+            "name": "Rational Agent Architectures",
+            "keywords": "rationality, reflex agent, goal-based agent, utility-based",
+            "learning_outcome": "Classify agent types based on behavioral complexity."
+          }
+        ]
+      },
+      {
+        "unit_number": 2,
+        "title": "Problem Solving & Heuristic Search",
+        "description": "Uninformed search, heuristic evaluation, A* search, and game playing with Alpha-Beta pruning.",
+        "topics": [
+          {
+            "name": "A* Algorithm & Admissibility",
+            "keywords": "a* search, heuristic function, admissibility, consistency, optimality",
+            "learning_outcome": "Apply A* search with admissible heuristics to route-finding problems."
+          },
+          {
+            "name": "Adversarial Search & Alpha-Beta Pruning",
+            "keywords": "minimax, alpha-beta, game trees, branching factor",
+            "learning_outcome": "Analyze state spaces and prune non-promising branches in two-player games."
+          }
+        ]
+      },
+      {
+        "unit_number": 3,
+        "title": "Knowledge Representation & Logical Reasoning",
+        "description": "Propositional logic, first-order predicate calculus, resolution refutation, and ontologies.",
+        "topics": [
+          {
+            "name": "First-Order Logic & Resolution",
+            "keywords": "fol, predicate calculus, unification, resolution refutation, cnf",
+            "learning_outcome": "Execute resolution refutation proofs in first-order logic."
+          },
+          {
+            "name": "Forward & Backward Chaining",
+            "keywords": "inference engine, horn clauses, rule-based systems",
+            "learning_outcome": "Differentiate inference mechanisms in expert systems."
+          }
+        ]
+      },
+      {
+        "unit_number": 4,
+        "title": "Probabilistic Reasoning & Uncertainty",
+        "description": "Bayesian networks, conditional independence, Markov models, and exact inference.",
+        "topics": [
+          {
+            "name": "Bayesian Belief Networks",
+            "keywords": "bayes rule, conditional probability tables, d-separation, inference",
+            "learning_outcome": "Compute posterior probabilities given observed diagnostic evidence."
+          },
+          {
+            "name": "Markov Decision Processes (MDP)",
+            "keywords": "bellman equation, value iteration, policy iteration, discount factor",
+            "learning_outcome": "Formulate sequential decision-making tasks under uncertainty."
+          }
+        ]
+      },
+      {
+        "unit_number": 5,
+        "title": "Machine Learning Foundations & Neural Networks",
+        "description": "Supervised learning algorithms, perceptrons, multi-layer networks, backpropagation.",
+        "topics": [
+          {
+            "name": "Backpropagation & Gradient Descent",
+            "keywords": "loss function, chain rule, learning rate, weight update",
+            "learning_outcome": "Derive gradient descent weight update equations for multi-layer perceptrons."
+          },
+          {
+            "name": "Regularization & Generalization",
+            "keywords": "overfitting, l1 l2 regularization, dropout, cross-validation",
+            "learning_outcome": "Critique model generalization techniques to prevent overfitting."
+          }
+        ]
+      },
+      {
+        "unit_number": 6,
+        "title": "Natural Language Processing & Advanced Architectures",
+        "description": "Text vectorization, sequence models, self-attention mechanisms, and transformer architectures.",
+        "topics": [
+          {
+            "name": "Self-Attention & Transformer Architecture",
+            "keywords": "transformer, multi-head attention, positional encoding, qkv matrices",
+            "learning_outcome": "Design attention-based neural architectures for sequence transduction."
+          },
+          {
+            "name": "AI Ethics & Explainability (XAI)",
+            "keywords": "bias, fairness, accountability, interpretability, lime, shap",
+            "learning_outcome": "Evaluate fairness metrics and algorithmic transparency in high-stakes automated decisions."
+          }
+        ]
+      }
+    ]
+  },
+  "sample_templates": [
+    {
+      "name": "End-Semester Examination (100 Marks)",
+      "total_marks": 100,
+      "duration_minutes": 180,
+      "sections_config": [
+        { "section_name": "Section A: Conceptual Foundations", "marks": 20 },
+        { "section_name": "Section B: Analytical Application", "marks": 40 },
+        { "section_name": "Section C: Advanced Synthesis & Design", "marks": 40 }
+      ],
+      "bloom_targets": { "L1": 10, "L2": 20, "L3": 30, "L4": 25, "L5": 10, "L6": 5 },
+      "difficulty_targets": { "Easy": 30, "Medium": 50, "Hard": 20 }
+    },
+    {
+      "name": "In-Semester Assessment (50 Marks)",
+      "total_marks": 50,
+      "duration_minutes": 120,
+      "sections_config": [
+        { "section_name": "Section A: Core Definitions", "marks": 10 },
+        { "section_name": "Section B: Procedural Application", "marks": 20 },
+        { "section_name": "Section C: Critical Analysis", "marks": 20 }
+      ],
+      "bloom_targets": { "L1": 10, "L2": 20, "L3": 35, "L4": 25, "L5": 10, "L6": 0 },
+      "difficulty_targets": { "Easy": 30, "Medium": 50, "Hard": 20 }
+    }
+  ]
+}
