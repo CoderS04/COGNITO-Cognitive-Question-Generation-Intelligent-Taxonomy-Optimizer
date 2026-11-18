@@ -1,7 +1,5 @@
 # COGNITO: Cognitive Question Generation & Intelligent Taxonomy Optimizer
 
----
-
 ## 1. Executive Summary
 **COGNITO** is an AI-powered Intelligent Question Paper Design System developed for university professors, examination paper setters, and academic audit committees. It replaces manual, error-prone exam drafting with an automated cognitive engineering pipeline:
 
